@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Our Love Story 📖</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Outfit:wght@300;400;600&family=Parisienne&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main id="app">
+        <!-- Realistic Nebula Background -->
+        <div class="nebula-bg">
+            <div class="fog"></div>
+            <div class="star-layer"></div>
+            <div class="real-moon"></div>
+        </div>
+
+        <!-- Silhouette Frame -->
+        <div class="silhouette"></div>
+
+        <!-- Story Container -->
+        <div id="story-container"></div>
+    </main>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="assets/audio/bg_music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- GSAP & Main Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
